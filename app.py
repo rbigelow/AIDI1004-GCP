@@ -14,6 +14,11 @@ def about():
 def contact():
     return "This is the Contact Page."
 
+@app.route('/ross')
+def contact():
+    return "This is Ross' page. This is cool."
+
+
 @app.route('/about-us')
 def contact():
     return "This is the About us Page."
