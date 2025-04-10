@@ -14,5 +14,12 @@ def about():
 def contact():
     return "This is the Contact Page."
 
+@app.route('/picture')
+def picture():
+    return "This is the Picture Page."
+
+def contact():
+    return "This is the Contact Page."
+
 if __name__ == '__main__':
     app.run(debug=True)
