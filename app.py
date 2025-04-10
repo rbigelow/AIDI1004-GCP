@@ -14,5 +14,10 @@ def about():
 def contact():
     return "This is the Contact Page."
 
+@app.route('/ross')
+def contact():
+    return "This is Ross' page."
+
+
 if __name__ == '__main__':
     app.run(debug=True)
