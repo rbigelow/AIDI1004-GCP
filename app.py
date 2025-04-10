@@ -16,7 +16,7 @@ def contact():
 
 @app.route('/ross')
 def contact():
-    return "This is Ross' page."
+    return "This is Ross' page. This is cool."
 
 
 if __name__ == '__main__':
